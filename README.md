@@ -1,18 +1,20 @@
-# HP-ProBook-430G5-Hackintosh
+This repo forked to kreizlie/HP-ProBook-430G5-Hackintosh.  Thanks krezlie
 
-OpenCore setup for running Hackintosh on HP ProBook 430 G5
+# HP-ProBook-450G5-Hackintosh
+
+OpenCore setup for running Hackintosh on HP ProBook 450 G5
 
 ##### Laptop Specifications:
 - Intel Core i7 8550U CPU (KabyLake R)
 - Intel UHD 620 Graphics
 - 16GB DDR4 2400MHz RAM
-- 13.3 Full HD IPS Display
+- 15.6 Full HD IPS Display
 - Synaptics I2C TouchPad
-- BCM94360CS2 Wi-Fi and Bluetooth Card (upgraded)
-- 2 USB 3.0 Ports, 1 USB Type-C Port
+- BCM94352HMB Wi-Fi and Bluetooth Card (upgraded)
+- 3 USB 3.0 Ports, 1 USB Type-C Port
 - HDMI Port
 - SD Card Reader
-- 250GB Samsung 970 EVO NVME M.2 SSD (upgraded)
+- 512GB Seagate NVME M.2 SSD (upgraded)
 
 ##### BIOS Setup:
 - Disable TPM Security
@@ -45,7 +47,7 @@ OpenCore setup for running Hackintosh on HP ProBook 430 G5
 ##### What works:
 - macOS Catalina 10.15.6
 - Intel HD QE/CI
-- HiDPI Scaled Resolution (1440 x 810)
+- HiDPI Scaled Resolution (1920 x 1080)
 - USB 3.0 and USB Type-C Ports
 - Ethernet
 - Audio on internal speaker and headphone
